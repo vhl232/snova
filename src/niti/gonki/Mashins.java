@@ -4,7 +4,11 @@ package niti.gonki;
  * Created by vladimir on 11.07.17.
  */
 public class Mashins implements Runnable {
+<<<<<<< HEAD
     private static final double maxPut = 1000;
+=======
+    private static final double maxPut = 1000000;
+>>>>>>> origin/master
     private double speed;
     private double put;
 
@@ -20,7 +24,11 @@ public class Mashins implements Runnable {
 
         while (put <= maxPut) {
 
+<<<<<<< HEAD
             put += (speed * Math.random()) * 10;
+=======
+            put += (speed * Math.random()) * 100;
+>>>>>>> origin/master
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
