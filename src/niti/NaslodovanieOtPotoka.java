@@ -11,7 +11,7 @@ public class NaslodovanieOtPotoka extends Thread {
             System.out.println();
 
             try {
-                Thread.sleep(300);
+                Thread.sleep(1300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
