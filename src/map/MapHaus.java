@@ -29,7 +29,7 @@ public class MapHaus {
 
         System.out.println(gilyo.get(a));
 
-        a.nomerDoma = 200;
+        a = a.setStreet("Posk");
 
         System.out.println(gilyo.get(a));
 
